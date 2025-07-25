@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Market</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
@@ -35,7 +39,7 @@
     <section class="hero">
         <div class="max-w-7xl mx-auto px-4 py-16 flex flex-col-reverse md:flex-row items-center gap-8">
             <div class="flex-1 text-left md:text-left">
-                <h1 class="text-2xl md:text-6xl font-bold mb-6">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h1>
+                <h1 class="text-2xl md:text-6xl font-bold mb-6 noto-serif-font">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h1>
                 <p class="text-lg md:text-2xl text-gray-600">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
             </div>
 
@@ -48,20 +52,114 @@
 
     <!-- Our Plants Section -->
     <section class="max-w-7xl mx-auto px-4 py-16">
-        <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-6"><span class="text-[#E95A08]">Our </span>Plants</h2>
-        <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+        <h2 class="text-3xl md:text-4xl text-center text-gray-900 mb-6 noto-serif-font"><span class="text-[#E95A08]">Our </span>Plants</h2>
+        <p class="text-center text-gray-600 mb-10 max-w-xl mx-auto">
             Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
         </p>
 
         <!-- Flower Cards -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8">
             <div class="hover:shadow-lg transition text-center">
                 <img src="assets/sample-flower-image.png" alt="Lily Blossom" class="w-full h-64 mb-4">
-                <h3 class="text-lg font-semibold text-gray-900">Lily Blossom</h3>
-                <p class="text-black font-bold mb-4">$20 USD</p>
-                <button class="bg-[#E95A08] hover:bg-[#E95A58] text-white font-semibold px-4 py-2 w-full">ADD TO CART</button>
+                <h3 class="text-lg font-semibold text-gray-900 inter-font font-medium">Lily Blossom</h3>
+                <p class="text-black inter-font font-bold mb-4">$20 USD</p>
+                <button class="bg-[#E95A08] hover:bg-[#E95A58] text-white inter-font font-semibold px-4 py-2 w-full">ADD TO CART</button>
+            </div>
+            <div class="hover:shadow-lg transition text-center">
+                <img src="assets/sample-flower-image.png" alt="Lily Blossom" class="w-full h-64 mb-4">
+                <h3 class="text-lg font-semibold text-gray-900 inter-font font-medium">Lily Blossom</h3>
+                <p class="text-black inter-font font-bold mb-4">$20 USD</p>
+                <button class="bg-[#E95A08] hover:bg-[#E95A58] text-white inter-font font-semibold px-4 py-2 w-full">ADD TO CART</button>
+            </div>
+            <div class="hover:shadow-lg transition text-center">
+                <img src="assets/sample-flower-image.png" alt="Lily Blossom" class="w-full h-64 mb-4">
+                <h3 class="text-lg font-semibold text-gray-900 inter-font font-medium">Lily Blossom</h3>
+                <p class="text-black inter-font font-bold mb-4">$20 USD</p>
+                <button class="bg-[#E95A08] hover:bg-[#E95A58] text-white inter-font font-semibold px-4 py-2 w-full">ADD TO CART</button>
+            </div>
+            <div class="hover:shadow-lg transition text-center">
+                <img src="assets/sample-flower-image.png" alt="Lily Blossom" class="w-full h-64 mb-4">
+                <h3 class="text-lg font-semibold text-gray-900 inter-font font-medium">Lily Blossom</h3>
+                <p class="text-black inter-font font-bold mb-4">$20 USD</p>
+                <button class="bg-[#E95A08] hover:bg-[#E95A58] text-white inter-font font-semibold px-4 py-2 w-full">ADD TO CART</button>
             </div>
         </div>
+        
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-10">
+            <div class="hover:shadow-lg transition text-center">
+                <img src="assets/sample-flower-image.png" alt="Lily Blossom" class="w-full h-64 mb-4">
+                <h3 class="text-lg font-semibold text-gray-900 inter-font font-medium">Lily Blossom</h3>
+                <p class="text-black inter-font font-bold mb-4">$20 USD</p>
+                <button class="bg-[#E95A08] hover:bg-[#E95A58] text-white inter-font font-semibold px-4 py-2 w-full">ADD TO CART</button>
+            </div>
+            <div class="hover:shadow-lg transition text-center">
+                <img src="assets/sample-flower-image.png" alt="Lily Blossom" class="w-full h-64 mb-4">
+                <h3 class="text-lg font-semibold text-gray-900 inter-font font-medium">Lily Blossom</h3>
+                <p class="text-black inter-font font-bold mb-4">$20 USD</p>
+                <button class="bg-[#E95A08] hover:bg-[#E95A58] text-white inter-font font-semibold px-4 py-2 w-full">ADD TO CART</button>
+            </div>
+            <div class="hover:shadow-lg transition text-center">
+                <img src="assets/sample-flower-image.png" alt="Lily Blossom" class="w-full h-64 mb-4">
+                <h3 class="text-lg font-semibold text-gray-900 inter-font font-medium">Lily Blossom</h3>
+                <p class="text-black inter-font font-bold mb-4">$20 USD</p>
+                <button class="bg-[#E95A08] hover:bg-[#E95A58] text-white inter-font font-semibold px-4 py-2 w-full">ADD TO CART</button>
+            </div>
+            <div class="hover:shadow-lg transition text-center">
+                <img src="assets/sample-flower-image.png" alt="Lily Blossom" class="w-full h-64 mb-4">
+                <h3 class="text-lg font-semibold text-gray-900 inter-font font-medium">Lily Blossom</h3>
+                <p class="text-black inter-font font-bold mb-4">$20 USD</p>
+                <button class="bg-[#E95A08] hover:bg-[#E95A58] text-white inter-font font-semibold px-4 py-2 w-full">ADD TO CART</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flower & Plants Lover Section -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <img src="assets/flower-store.png" alt="Flower Arrangement" class="w-540 h-auto rounded-lg shadow-xl" />
+            </div>
+            
+            <div>
+                <h2 class="text-6xl font-bold text-gray-900 noto-serif-font mb-6 noto-serif-font">Flower & Plants Lover</h2>
+                <ul class="space-y-4 text-gray-700 text-lg list-disc list-inside w-96 inter-font">
+                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Latest Deals Section -->
+    <section class="bg-gray-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+        <h2 class="text-4xl font-bold text-gray-900 noto-serif-font mb-8">Latest Deals</h2>
+        <p class="text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
+        Discover seasonal discounts on your favorite plants. Limited time only!
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Deal Card 1 -->
+        <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold text-gray-900 mb-4">🌿 60% Off | Bloom Plant</h3>
+            <button class="bg-[#E95A08] hover:bg-[#E95A58] text-white font-bold px-6 py-3 rounded-full">Shop Now</button>
+        </div>
+
+        <!-- Deal Card 2 -->
+        <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold text-gray-900 mb-4">🌸 30% Off | Ana Plant</h3>
+            <button class="bg-[#E95A08] hover:bg-[#E95A58] text-white font-bold px-6 py-3 rounded-full">Shop Now</button>
+        </div>
+
+        <!-- Deal Card 3 -->
+        <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold text-gray-900 mb-4">🌼 25% Off | Zabo Plant</h3>
+            <button class="bg-[#E95A08] hover:bg-[#E95A58] text-white font-bold px-6 py-3 rounded-full">Shop Now</button>
+        </div>
+        </div>
+    </div>
     </section>
 
 
